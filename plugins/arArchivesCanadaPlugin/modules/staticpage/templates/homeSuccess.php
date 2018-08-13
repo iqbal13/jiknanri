@@ -58,8 +58,9 @@ Deputi Bidang Informasi dan Pengembangan Sistem Kearsipan - ARSIP NASIONAL REPUB
 
 
 </div>
-
-<div id="homepage" class="row" style="width: 100%;">
+</div>
+<div class="row" style="background: #e6e6e6;margin-top: 30px;">
+<div id="homepage" class="row">
 
   <div class="span4">
     <?php echo get_component('default', 'popular', array('limit' => 10, 'sf_cache_key' => $sf_user->getCulture())) ?>
@@ -72,10 +73,11 @@ Deputi Bidang Informasi dan Pengembangan Sistem Kearsipan - ARSIP NASIONAL REPUB
         <span class="small">Jaringan Informasi Kearsipan Nasional </span>
       </h3>
       <div>
-        <p>  <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1ho6rT58tYnPdWKmeDrSJML1cT3I&ll=1.1718695496205245%2C120.9784149539156&z=4" width="800" height="480"></iframe -->></p>
+        <p>  <iframe src="https://www.google.com/maps/d/embed?mid=1ho6rT58tYnPdWKmeDrSJML1cT3I&ll=1.1718695496205245%2C120.9784149539156&z=4" width="800" height="480"></iframe></p>
 
       </div>
     </a>
   </div>
 
+</div>
 </div>

@@ -1,0 +1,22 @@
+transaction: ~
+history: ~
+rendering: ~
+security: ~
+
+settings:
+  enabled: false
+
+QubitLimitIp:
+  enabled: false
+
+QubitSslRequirement:
+  enabled: false
+
+QubitMeta:
+  enabled: false
+
+QubitLimitResults:
+  enabled: false
+
+cache: ~
+execution: ~

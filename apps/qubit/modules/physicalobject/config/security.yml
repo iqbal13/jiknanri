@@ -1,0 +1,10 @@
+delete:
+  credentials: [[ contributor, editor, administrator ]]
+  is_secure: true
+
+edit:
+  credentials: [[ contributor, editor, administrator, translator ]]
+  is_secure: true
+
+all:
+  is_secure: true

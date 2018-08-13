@@ -1,0 +1,31 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+all:
+
+  # Upload limit (in gigabytes), possible values:
+  #  Zero              => Uploads forbidden
+  #  Negative integer  => Unlimited uploads
+  #  Positive integer  => Number of gigabytes
+  upload_limit: -1
+
+  # Timeout for fetching digital objects from external services, in seconds
+  download_timeout: 10
+
+  # Use sfMemcacheCache if you want a distributed cache.
+  # sfAPCCache works with both APC and APCu
+  cache_engine: sfAPCCache
+
+  # Enable read only mode. This setting may be overwritten
+  # by and environment variable called "ATOM_READ_ONLY"
+  read_only: false
+
+  # Google Analitycs
+  # google_analytics_api_key: ...
+
+  # htmlpurifier is used in static pages, disabled by default
+  htmlpurifier_enabled: false
+
+  # Specify a CSV Transform script that can be automatically applied from
+  # the CSV Import Page in AtoM
+  # csv_transform_script_name: /full/path/to/transformscript
